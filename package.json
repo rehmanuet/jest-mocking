@@ -1,0 +1,28 @@
+{
+  "name": "javascript-essential-training-exercise-files",
+  "version": "1.0.0",
+  "description": "Repository for exercise files used in the LinkedIn Learning course `JavaScript Essential Training` instructed by Morten Rand-Hendriksen and published 2020.",
+  "main": "index.html",
+  "author": "Morten Rand-Hendriksen",
+  "type": "module",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.15.4",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^27.2.0",
+    "prettier": "^2.1.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "lodash": "^4.17.21",
+    "node-fetch": "^3.0.0"
+  }
+}
